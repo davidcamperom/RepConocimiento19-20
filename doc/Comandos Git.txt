@@ -1,0 +1,29 @@
+Como manejar Git:
+
+1. Vamos a la carpeta donde queramos trabajar desde el cmd
+cd .\Documents\
+
+2. Clonamos repositorio Git. Para ello copiamos el enlace SSH del repositorio
+desde la web de Github
+git clone https://github.com/davidcamperom/RepConocimiento19-20.git
+
+3. Vamos al repositorio
+cd RepConocimiento19-20
+
+4. Añadimos un fichero al repositorio
+git add <nombre_fichero> -> git add natural.pl
+
+5. Si queremos guardar los cambios en el repositorio
+git commit -a -m "<mensaje>" -> git commit -a -m "Creado el fichero natural.pl"
+
+/*
+Si no estamos loggeados, tenemos que loggearnos
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+*/
+
+VOLVEMOS AL PASO 5
+
+6. Por último, subimos los cambios al repositorio con el comando git push
