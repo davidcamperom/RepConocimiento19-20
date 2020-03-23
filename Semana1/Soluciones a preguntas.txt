@@ -2,7 +2,8 @@ Usuario GitHub: davidcamperom
 
 ******** Preguntas propuestas ********
 
-1. ¿Seria posible utilizando el predicado concatenar obtener cualquier par de números    consecutivos de una lista? En caso afirmativo, ¿de qué forma tendría que utilizar el    predicado concatenar para conseguirlo?
+1. ¿Seria posible utilizando el predicado concatenar obtener cualquier par de números consecutivos de una lista?
+   En caso afirmativo, ¿de qué forma tendría que utilizar el predicado concatenar para conseguirlo?
 
 	Sí es posible:
 
@@ -20,7 +21,7 @@ Usuario GitHub: davidcamperom
 		E1 = 6,
 		E2 = 7 .
 
-2. ¿Es posible hacer un uso reversible del predicado invertir? Si no fuese posible,       ¿podría justificar por qué?
+2. ¿Es posible hacer un uso reversible del predicado invertir? Si no fuese posible, ¿podría justificar por qué?
 
 	Sí es posible:
 
@@ -32,7 +33,8 @@ Usuario GitHub: davidcamperom
 	Un predicado puede no ser reversible cuando se usa un operador is o el
 	operador :=.
 
-4. Como hemos visto en clase, el uso reversible de los predicados es una característica    muy potente de Prolog. Haga uso de una combinación de los predicados concatenar e       invertir en el que se utilice esta técnica.
+4. Como hemos visto en clase, el uso reversible de los predicados es una característica muy potente de Prolog.
+   Haga uso de una combinación de los predicados concatenar e invertir en el que se utilice esta técnica.
 
 	invertir([1,2,3],R),
 	concatenar([1,2,3],R.C).
